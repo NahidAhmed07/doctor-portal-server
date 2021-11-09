@@ -112,7 +112,7 @@ run().catch(() => console.dir);
 
 app.get("/", (req, res) => {
   // test api
-  res.send("welcome to doctor-portal  server");
+  res.send("welcome to doctor-portal da  server");
 });
 
 app.listen(4500, () => {
