@@ -91,7 +91,7 @@ async function run() {
           res.json(result);
         }
       } else {
-        res.status(403).json({ message: "you not a admin" });
+        res.status(403).json({ message: "you not valid a admin" });
       }
     });
     // check us user admin
@@ -112,7 +112,7 @@ run().catch(() => console.dir);
 
 app.get("/", (req, res) => {
   // test api
-  res.send("welcome to doctor-portal da  server");
+  res.send("welcome to doctor-portal hello word   server");
 });
 
 app.listen(4500, () => {
